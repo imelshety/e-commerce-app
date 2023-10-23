@@ -29,15 +29,12 @@ const Home = () => {
                     <img src={hero2} alt="hero2" className=" absolute md:top-10 md:-left-1/3 xl:left-10 2xl:top-10  mx-auto z-10 rounded-2xl" />
                     <img src={hero3} alt="hero3" className="absolute md:-bottom-32 md:left-1/2 xl:-bottom-56 rounded-2xl z-10 mb" />
                 </div>
-                <div className="squreDiv hidden lg:block absolute bottom-14 left-[50rem] w-28 h-28 rotate-45 -z-10">
+                <div className="squreDiv hidden lg:block absolute top-32 left-1/2 w-28 h-28 rotate-45"></div>
+                <div className="squreDiv hidden lg:block absolute bottom-14 left-[58rem] w-28 h-28 rotate-45 -z-10">
                 </div>
-                <div className="squreDiv hidden lg:block absolute top-36 left-1/2 w-28 h-28 rotate-45">
-
-                </div>
-
             </div >
 
-            <div className="squreDiv hidden lg:block absolute -bottom-44 -left-8 w-28 h-28 rotate-0">
+            <div className="squreDiv hidden lg:block absolute -bottom-52 -left-8 w-28 h-28 rotate-0">
 
             </div>
         </>
