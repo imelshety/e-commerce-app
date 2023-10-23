@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* golbal elements  */
+.squreDiv {
+  background-image: radial-gradient(
+    30% 30% at center,
+    #0021384f 0% 80%,
+    #0000 81% 100%
+  );
+  background-size: 10px 10px;
+}
