@@ -1,5 +1,8 @@
+/* eslint-disable no-undef */
+const withMT = require("@material-tailwind/react/utils/withMT");
 /** @type {import('tailwindcss').Config} */
-export default {
+
+export default withMT({
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
@@ -8,7 +11,8 @@ export default {
         mainDark: "#000000",
         mainBlue: "#002138",
         mainWhite: "#FFFFFF",
-        textColor: "#686868",
+        textColor: "#8C8C8C",
+        borderColor: "#DEDEDE",
       },
       screens: {
         sm: "640px",
@@ -29,4 +33,4 @@ export default {
     },
   },
   plugins: [],
-};
+});

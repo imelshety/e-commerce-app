@@ -1,12 +1,9 @@
-import Home from "./components/Home"
-import Navbar from "./components/Navbar"
 
 function App() {
   return (
 
     <>
-      <Navbar />
-      <Home />
+      <h2 className="text-mainYellow">home </h2>
     </>
   )
 }
