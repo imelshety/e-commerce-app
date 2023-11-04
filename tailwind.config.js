@@ -7,12 +7,16 @@ export default withMT({
   theme: {
     extend: {
       colors: {
-        mainYellow: "#FAB400",
-        mainDark: "#000000",
-        mainBlue: "#002138",
-        mainWhite: "#FFFFFF",
-        textColor: "#8C8C8C",
-        borderColor: "#DEDEDE",
+        mainColor: "#efefef",
+        primaryColor: "#2c3e50",
+        secondaryColor: "#34495e",
+        lightRed: "#e74c3c",
+        strongRed: "#c0392b",
+        warningColor: "#ffc107",
+        successColor: "#28a745",
+        infoColor: "#2a7ddbb3",
+        whiteColor: "#fff",
+        grayColor: " rgb(88, 88, 88)"
       },
       screens: {
         sm: "640px",
